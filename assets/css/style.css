@@ -1,0 +1,84 @@
+
+
+body{
+	background: url("../images/background2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'WaltographRegular'; 
+
+}
+
+h2{
+	
+	font-size: 50px;
+	margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: 'WaltographRegular'; 
+    font-weight: bold; 
+   
+}
+
+.row{
+	margin-bottom: 3em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.btn{
+	font-family: 'WaltographRegular'; 
+	font-size: 16px;
+	background-color: lightseagreen;
+	color: white;
+	padding: 1em;
+}
+
+.btn:hover{
+	color: #efad07;
+}
+
+.btn:focus{
+	outline: 2px solid orangered;
+	background-color: #1680bc;
+	color: #efad07;
+}
+
+.character-button{
+	margin: 0.5em;
+}
+
+.border{
+	border: 4px  orangered;
+}
+
+.comic-sans-font{
+	font-family: 'WaltographRegular'; 
+	font-size: 18px;
+	font-weight: 800;
+	color: black;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+#submit{
+	margin-top: 1em;
+}
+
+#characters{
+	margin-top: 1em;
+	width: 100%;
+}
+
+#characters:focus{
+	outline: 2px solid orangered ;
+}
+
+#gif-container{
+	font-size: 22px;
+}
